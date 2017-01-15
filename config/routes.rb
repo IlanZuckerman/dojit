@@ -1,7 +1,9 @@
 Dojit::Application.routes.draw do
-  get "welcome/index"
-  get "welcome/contact"
-  get "welcome/about"
+
+  resources :posts
+
+  get 'contact' => 'welcome#contact'
+  get 'about' => 'welcome#about'
   
   root to: 'welcome#index'
 
