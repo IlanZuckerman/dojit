@@ -41,6 +41,7 @@ gem 'jquery-rails'
 
 # Deploy with Capistrano
 # gem 'capistrano'
-
+gem "strong_parameters"
+gem "rails-api"
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
