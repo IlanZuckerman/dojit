@@ -4,6 +4,7 @@ gem 'rails', '3.2.22.2'
 gem 'bootstrap-sass', '3.1.1.0'
 gem 'faker'
 gem 'devise'
+gem "letter_opener", :group => :development
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
