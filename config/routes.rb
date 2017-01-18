@@ -1,5 +1,7 @@
 Dojit::Application.routes.draw do
 
+  devise_for :users
+
   resources :posts
 
   get 'contact' => 'welcome#contact'
